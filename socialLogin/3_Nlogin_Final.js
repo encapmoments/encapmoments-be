@@ -4,14 +4,14 @@ const app = express();
 
 
 // 네이버 로그인 설정
-const naver_client_id = "5hSMv1FA85j9X_zH73A7";
-const naver_client_secret = "2mczc4xzJS";
+const naver_client_id = "####";
+const naver_client_secret = "####";
 const naver_state = "RAMDOM_STATE";
-const naver_redirectURI = encodeURI("http://127.0.0.1:3000/naver/callback");
+const naver_redirectURI = encodeURI("####");
 
 // 카카오 로그인 설정
-const kakao_client_id = "8eb251d72d8338065a994709fbc11868";
-const kakao_redirectURI = encodeURI("http://127.0.0.1:3000/kakao/callback");
+const kakao_client_id = "####";
+const kakao_redirectURI = encodeURI("####");
 
 // 정적 파일 제공 (로그인 버튼 이미지)
 app.use(express.static("public"));
